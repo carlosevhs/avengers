@@ -1,59 +1,39 @@
 @use 'variaveis';
 
-.shows {
-    padding: 2vw 5.6vw;
-    min-height: 50vw;
+h2 {
+    text-align: center;
+}
 
-    &__list{
-        margin-top: 44px;
-        display: none;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 24px;
-
-        @media (max-width: 768px) {
-            grid-template-columns: 1fr 1fr;
-        }
-
-        &--is-active {
-            display: grid;
-        }
-        &__item{
-            img{
-                max-width: 100%;
-                border-radius: 4px;
-            }
-        }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
     }
+}
 
-    &__tabs {
-        display: flex;
-        justify-content: center;
+.grid-item {
+    position: relative;
+    cursor: pointer;
+}
 
-        @media (max-width: 768px) {
-            white-space: nowrap;
-            overflow-x: scroll;
-            padding-left: 20px;
-        }
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
 
-        &__button {
-            color: variaveis.$corTextoSecundario;
-            font-size: 20px;
-            border: none;
-            padding-bottom: 5px;
-            background: none;
-            text-transform: uppercase;
-            margin: 0 1vw;
-            cursor: pointer;
-            border-bottom: 5px solid transparent;
-            
-            &--is-active {
-                border-color: variaveis.$corTextoSecundario;
-            }
+.overlay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
 
-
-            @media (max-width: 768px) {
-                font-size: 16px;
-            }
-        }
-    }
+.grid-item:hover .overlay-img {
+    opacity: 1;
 }

@@ -9,9 +9,6 @@
 <body>
     <header class="header header--is-hidden">
         <div class="header__container">
-            <h1 >
-                <img class="header__logo " src="./dist/images/vingadores_gerra_infinita2.jpg" alt="Disney+">
-            </h1>
             <ul class="header__links">
                 <li class="header__links__item ">
                     <a href="#inicio" class="button button--secondary">Inicio</a>
@@ -60,111 +57,109 @@
         <iframe src="https://www.youtube.com/embed/DPOw2hfgCHI" frameborder="0" allowfullscreen></iframe>
     </section>
 
-    <section id="elenco" class="shows">
-        <nav class="shows__tabs">
-            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
-                Em breve</button>
-            <button data-tab-button="populares" class="shows__tabs__button">
-                Mais populares</button>
-            <button data-tab-button="star_plus" class="shows__tabs__button">
-                Mais no Star+</button>
-        </nav>
-        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/desencantada.jpg" alt="desencantada">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/willow.jpg" alt="willow">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/lobisomem.jpg" alt="lobisomem">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="the santa clauses">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/sem_limites.jpg" alt="sem limites">
-            </li>
-        </ul>
-        <ul data-tab-id="populares" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/bluey.jpg" alt="bluey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="cavaleira da lua">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="o incrivel dr pol">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="obi wan">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/red.jpg" alt="red">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="tudo igual sqn">
-            </li>
-        </ul>
-        <ul data-tab-id="star_plus" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/belair.jpg" alt="belair">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="libertadores">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/nba.jpg" alt="nba">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/os_simpson.jpg" alt="os Simpson">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/premier_league.jpg" alt="premier league">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/the_kardashians.jpg" alt="the kardashians">
-            </li>
-        </ul>
+    <section id="elenco" class="elenco">
+        <h2 class="title--big">Elenco</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Robert_Downey,_Jr.jpg" alt="Robert Downey">
+                <img class="overlay-img" src="./dist/images/elenco/homem_de_ferro.jpg" alt="Homem de Ferro">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Chris_Evans.jpg" alt="Chris Evans">
+                <img class="overlay-img" src="./dist/images/elenco/capitao_ameria.jpg" alt="Capitão América">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Chris_Hemsworth.jpg" alt="Chris Hemsworth">
+                <img class="overlay-img" src="./dist/images/elenco/thor.jpg" alt="Thor">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Mark_Ruffalo.jpg" alt="Mark Ruffalo">
+                <img class="overlay-img" src="./dist/images/elenco/hulk.jpg" alt="hulk">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Scarlett_Johansson.jpg" alt="Scarlett Johansson">
+                <img class="overlay-img" src="./dist/images/elenco/viuva_negra.jpg" alt="Viuva negra">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/BCumberbatch.jpg" alt="Benedict Cumberbatch">
+                <img class="overlay-img" src="./dist/images/elenco/dr_estranho.jpg" alt="Dr Estranho">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Tom_Holland.jpg" alt="Tom Holland">
+                <img class="overlay-img" src="./dist/images/elenco/homem_aranha.jpg" alt="Homem aranha">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Don_Cheadle.jpg" alt="Don Cheadle">
+                <img class="overlay-img" src="./dist/images/elenco/maquina_de_combate.jpg" alt="Máquina de Combate">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Chadwick_Boseman.jpg" alt="Chadwick Boseman">
+                <img class="overlay-img" src="./dist/images/elenco/pantera_negra.jpg" alt="Pantera Negra">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Paul_Bettany.jpg" alt="Paul Bettany">
+                <img class="overlay-img" src="./dist/images/elenco/visao.jpg" alt="Visão">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Elizabeth_Olsen.jpg" alt="Elizabeth Olsen">
+                <img class="overlay-img" src="./dist/images/elenco/wanda.jpg" alt="Wanda">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Anthony_Mackie.jpg" alt="Anthony Mackie">
+                <img class="overlay-img" src="./dist/images/elenco/falcao.jpg" alt="Falcão">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Sebastian_Stan.jpg" alt="Sebastian Stan">
+                <img class="overlay-img" src="./dist/images/elenco/bucky.jpg" alt="Bucky Barnes">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Benedict_Wong.jpg" alt="Benedict Wong">
+                <img class="overlay-img" src="./dist/images/elenco/wong.jpg" alt="Wong">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Pom_K.jpg" alt="Pom K.">
+                <img class="overlay-img" src="./dist/images/elenco/mantis.jpg" alt="Mantis">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Danai_Gurira.jpg" alt="Danai Gurira>
+                <img class="overlay-img" src="./dist/images/elenco/okoye.jpg" alt="Okoye">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Letitia_Wright.jpg" alt="Letitia Wright">
+                <img class="overlay-img" src="./dist/images/elenco/sguri.jpg" alt="Shuri">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Chris_Pratt.jpg" alt="Chris Pratt">
+                <img class="overlay-img" src="./dist/images/elenco/peter_quill.jpg" alt="Peter Quill">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Karen_S.jpg" alt="Karen S">
+                <img class="overlay-img" src="./dist/images/elenco/nebula.jpg" alt="Nebulosa">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Vin_Diesel.png" alt="Vin Diesel">
+                <img class="overlay-img" src="./dist/images/elenco/groot.jpg" alt="Groot">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Bradley_C.jpg" alt="Bradley Cooper">
+                <img class="overlay-img" src="./dist/images/elenco/racoon.jpg" alt="Rocket Racoon">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Zoe_Saldana.jpg" alt="Zoe Saldana">
+                <img class="overlay-img" src="./dist/images/elenco/gamora.jpg" alt="Gamora">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/David_M.jpg" alt="David M.">
+                <img class="overlay-img" src="./dist/images/elenco/drax.jpg" alt="Drax">
+            </div>
+            <div class="grid-item">
+                <img src="./dist/images/elenco/Josh_Brolin.jpg" alt="Josh Brolin">
+                <img class="overlay-img" src="./dist/images/elenco/thanos.jpg" alt="Thanos">
+            </div>
+        </div>
     </section>
     <footer class="footer">
         <div class="footer__container">
-            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
-            <ul class="footer__links">
-                <li class="footer__links__item">
-                    <div class="language-selector">
-                        <img src="./dist/images/icones/globe.svg" alt="globo do mundo">
-                        <select>
-                            <option>English</option>
-                            <option selected>Português</option>
-                        </select>
-                    </div>
-                </li>
-                <li class="footer__links__item">
-                    <a class="text--small" href="https://disneytermsofuse.com/brazilian-portuguese/" target="_blank">Termos e condições de uso</a>
-                </li>
-                <li class="footer__links__item">
-                    <a class="text--small" href="https://www.disneyplus.com/pt-br/legal/pol%C3%ADtica-de-privacidade" target="_blank">Política de privacidade</a>
-                </li>
-                <li class="footer__links__item">
-                    <a class="text--small" href="https://www.disneyplus.com/pt-br/legal/prote%C3%A7%C3%A3o-de-dados-no-brasil" target="_blank">Proteção de dados no Brasil</a>
-                </li>
-                <li class="footer__links__item">
-                    <a class="text--small" href="https://preferences-mgr.trustarc.com/?pid=disney01&aid=disneyplus01&type=disneyplus" target="_blank">Anúncios personalizados</a>
-                </li>
-                <li class="footer__links__item">
-                    <a class="text--small" href="https://help.disneyplus.com/csp?id=csp_article_content&article=devices-supported" target="_blank">Dispositivos compatíveis</a>
-                </li>
-                <li class="footer__links__item">
-                    <a class="text--small" href="https://help.disneyplus.com/csp" target="_blank">Ajuda</a>
-                </li>
-                <li class="footer__links__item">
-                    <a class="text--small" href="https://help.disneyplus.com/csp?id=csp_article_content&sys_kb_id=1123a3bcdb1815d40729eb2ed39619e3" target="_blank">Sobre o Disney+</a>
-                </li>
-            </ul>
             <p class="text--small">
                 ® 2023 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
             </p>
