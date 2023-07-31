@@ -1,6 +1,6 @@
 @use 'variaveis';
 @use 'hero';
-@use 'shows';
+@use 'elenco';
 @use 'trailer';
 @use 'footer';
 @use 'header';
@@ -95,9 +95,9 @@ body {
     }
 }
 
-
 h2 {
     margin: 16px auto;
+    text-align: center;
 }
 
 .button {

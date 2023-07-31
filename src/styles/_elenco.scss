@@ -1,8 +1,6 @@
 @use 'variaveis';
 
-h2 {
-    text-align: center;
-}
+
 
 .grid-container {
     display: grid;
@@ -18,13 +16,16 @@ h2 {
 
 .grid-item {
     position: relative;
-    cursor: pointer;
+    &:hover .overlay-img{
+        opacity: 1;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
-.grid-item img {
-    width: 100%;
-    height: auto;
-}
 
 .overlay-img {
     position: absolute;
@@ -34,6 +35,4 @@ h2 {
     transition: opacity 1s ease;
 }
 
-.grid-item:hover .overlay-img {
-    opacity: 1;
-}
+
