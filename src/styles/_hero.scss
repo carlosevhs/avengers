@@ -14,9 +14,7 @@
     @media (max-width: 1023px) {
         background-image: url(../images/Vingadores_-_Guerra_Infinita.jpg);
         padding-top: calc(50vw + 25px);
-        background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
     }
 
     .button {
@@ -31,17 +29,9 @@
         bottom: 0;
         @media (max-width: 768px) {
             max-width: 346px;
+            bottom: -40px;
         }
         
-
-        &__branding {
-            max-width: 320px;
-            margin: 0 auto 38px;
-
-            @media (max-width: 768px) {
-                max-width: 180px;
-            }
-        }
 
         .title--small {
             margin-bottom: 64px;
@@ -60,10 +50,6 @@
             display: flex;
             justify-content: space-between;
 
-            @media (max-width: 768px) {
-                display: block;
-            }
-
 
             &__combo {
                 width: calc(50% - 12px);
@@ -72,6 +58,7 @@
                 @media (max-width: 768px) {
                     width: 100%;
                     margin-bottom: 24px;
+                    padding: 8px;
                 }
 
                 img {
